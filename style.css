@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .landing {
     width: 100%;
     height: 110vh;
@@ -20,9 +21,7 @@
     /*background-color:red;*/
     
     background-color: white;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-top: 8px;
+   
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -36,8 +35,12 @@
    /* background-color:blue;*/
      background-color: white;
     display: flex;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     flex-direction: row;
     align-items: center;
+    gap: 4px;
 }
 .mainMenu {
     width: 40px;
@@ -61,8 +64,8 @@
 }
 
 .mainMenuIcon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
    /*background-color:black;*/
   /* background-color: grey;*/
    color: black;
@@ -78,29 +81,24 @@
     
 }
 .logoMeet {
-    width: 50px;
+    width: 124px;
     height: 40px;
     /*background-color: pink;*/
     background-color: white;
 }
-.googleText {
-    width: 74px;
-    height: 40px;
-    background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    color: grey;
-    padding-top: 6px;
-}
+
 .meet {
-    width: 52px;
+    width: 48px;
     height: 48px;
    /* background-color:purple;*/
    background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: normal;
     color: black;
-    padding-top: 10px;
+    
 }
 .headerRight {
     width: 400px;
@@ -111,16 +109,25 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-right: 12px;
 }
 .headerRightText {
     width: 200px;
     height: 48px;
     /* background-color: aqua;   */
     background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    color: gray;
-    padding-top: 10px;
+    
+}
+.date-time{
+    width: 186px;
+    height: 48px;
+  font-size: 18px;
+  color: #5f6368;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
 }
 .questionIcon {
     width: 40px;
@@ -131,12 +138,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 .questionIconImg {
     width: 25px;
     height: 30px;
    /* background-color: grey;*/
    background-color: white;
+}
+.questionIcon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .exclamationIcon {
     width: 40px;
@@ -147,11 +159,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 .exclamationIconImg {
     width: 20px;
     height: 30px;
     background-color: white;
+}
+.exclamationIcon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .settingsIcon {
     width: 40px;
@@ -162,11 +179,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 .settingsIconImg {
     width: 22px;
     height: 30px;
     background-color: white;
+}
+.settingsIcon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .appsIcon {
     width: 40px;
@@ -177,11 +199,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 .appsIconImg {
     width: 25px;
     height: 30px;
     background-color: white;
+}
+.appsIcon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .accountIcon {
     width: 40px;
@@ -233,7 +260,7 @@
     gap: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    color: black;
+    color: dodgerblue;
 }
 .calenderIcon {
     width: 30px;
@@ -257,7 +284,8 @@
     gap: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    color: black;
+    color: rgba(0, 0, 0, 0.6);
+    
 }
 .videocamIcon {
     width: 30px;
@@ -280,7 +308,7 @@
     height: 104px;
    /* background-color:  lightcoral;*/
    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     color: black;
     font-size: 45px;
     letter-spacing: normal;
@@ -299,14 +327,15 @@
 .belowTitleText {
     width: 593px;
     height: 104px;
-   /* background-color:  yellow;*/
-   background-color: white;
+   /*background-color:  yellow;*/
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-    font-size: 20px;
-    letter-spacing: normal;
+    color: #444746;
+    font-size: 22px;
+    line-height: 28px;
     font-weight: 400;
-    line-height: 52px;
+    letter-spacing: normal;
+    
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -314,6 +343,7 @@
 .belowtitleText2 {
     display: flex;
     justify-content: center;
+    padding-bottom: 32px;
 
 }
 .joinOptions {
@@ -329,8 +359,8 @@
 }
 .newMetting {
 
-    width: 200px;
-    height: 60px;
+    width: 146px;
+    height: 48px;
    /* background-color: darkred;*/
    background-color: dodgerblue;
     display: flex;
@@ -341,22 +371,22 @@
     border-radius: 50px;
     color: white;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 .newMettingIcon {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
    /* background-color: pink*/
    background-color: dodgerblue;
 }
 .link {
-     width: 300px;
-    height: 60px;
+     width: 274px;
+    height: 50px;
    /* background-color: lightyellow;*/
    background-color: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
     align-items: center;
     gap: 20px;
     border-radius: 20px;
@@ -364,10 +394,12 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid grey;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .linkIcon {
-     width: 40px;
-    height: 40px;
+     width: 25px;
+    height: 25px;
    /* background-color: lightyellow;*/
    background-color: white;
     
@@ -388,24 +420,29 @@
 }
 .divider {
     width: 593px;
-    height: 2px;
+    height: 1px;
     background-color: black;
     border: none;
     margin: 20px 0;
 }
 .lastSection {
-    width: 593px;
-    height: 415px;
+    width: 584px;
+    height: 450px;
    /* background-color: lightblue;*/
    background-color: white;
+  
 }
 .circles {
+    width: fit-content;
+    height:330 ;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding-top: 40px;
+    gap: 56px;
+     padding-top: 24px;
+  padding-left: 74px;
+    
 }
 .previousIcon {
     width: 40px;
@@ -413,17 +450,19 @@
   /*  background-color: blueviolet;*/
   background-color: white;
   border-radius: 50%;
+  font-size: 12px;
+  
 }
 .middleIcon {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
   /*  background-color: blueviolet;*/
   background-color: white;
   border-radius: 50%;
 }
 .middleIconImg {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
 }
 .nextIcon {
@@ -432,6 +471,7 @@
   /*  background-color: blueviolet;*/
   background-color: white;
   border-radius: 50%;
+  font-size: 12px;
 }
 .bottomText {
     width: 593px;
@@ -440,21 +480,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 8px;
+    
+   
     
 }
 .bottomText1 {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-family: Roboto, Arial, sans-serif;
     color: black;
 }
 .bottomText2 {
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
     color: black;
 }
 .bottomText3 {
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
     color: black;
 }
 .hollowCircles {
@@ -482,13 +525,13 @@
    gap: 10px;
 }
 .smallText1 {
-    font-size: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
     color: blue;
 }
 .smallText2 {
-    font-size: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
     color: grey;
 }
 
