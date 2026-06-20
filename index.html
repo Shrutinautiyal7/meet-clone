@@ -6,113 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
 
 <body>
-    <div class="landing">
-        <div class="header">
-            <div class="headerLeft">
-                <div class="mainMenu">
-                    <div class="mainMainCircle">
-
-                        <img class="mainMenuIcon" src="./assets/mainMenu.svg" alt="">
-
-                    </div>
+   <div class="landingMeet">
+    <div class="header">
+        <div class="leftH">
+            <button class="buttonMenu">
+                <img  src="./assets/menu.svg" alt="">
+            </button>
+            <div class="logo">
+                <img class="logoImg" src="https://www.gstatic.com/meet/icons/logo_meet_2026_2x_1f2f118d5d561e36d43e7fb9d9906802.png" alt="">
+                <div class="meetText">Meet</div>
+            </div>
+        </div>
+        <div class="rightH">
+            <div class="dateAndTime"> 8:45 AM Tue, Jun 8</div>
+            <button class="questionBtn">
+                <img src="./assets/question.svg" alt="">
+            </button>
+            <button class="exclamationBtn">
+                <img src="./assets/exclamation.svg" alt="">
+            </button>
+            <button class="settingsBtn">
+                <img src="./assets/settings.svg" alt="">
+            </button>
+            <button class="appsBtn">
+                <img src="./assets/apps.svg" alt="">
+            </button>
+            <button class="accountBtn">
+                <img src="./assets/account.svg" alt="">
+            </button>
+        </div>
+    </div> 
+ <div class="bottom">
+       <div class="sidebar">
+       <div class="meetings">
+       
+            
+               <div class="meetingsItem">
+                <img src="./assets/calendar.svg" alt="">
+                <span><b>Meetings</b></span>
+            </div>
+        
+       </div>
+       <div class="calls">
+          <div class="callsItem">
+            <img src="./assets/videocam.svg" alt="">
+            <span><b>Calls</b></span>
+          </div>
+       </div>
+        </div>
+        
+    </div>
+    <div class="mainContent">
+        <div class="mainContentContainer">
+            <div class="mainContentContainerUpper">
+                <div class="upperBoldText"><span>Video calls and meetings for everyone</span></div>
+                <div class="upperSubText"><span>Connect, collaborate and celebrate from anywhere with Google Meet</span></div>
+                <div class="upperOptions">
+                    <button  class="newMetting">
+                  
+                        <img src="./assets/videoCall.svg" alt=""> New meeting
+                    </button>
+                   
+                     <div class="joinOption">
+                            <button class="joinInput">
+                                <img src="./assets/keyboard.svg" alt="">
+                                <input class="inputbox" type="text" placeholder="Enter a code or link">
+                            </button>
+                            <div class="join"><span>Join</span></div>
+                     </div>
+                   
                 </div>
-                <div class="logo">
-
-                    <img class="logoMeet" src="https://www.gstatic.com/meet/icons/logo_meet_2026_2x_1f2f118d5d561e36d43e7fb9d9906802.png" alt="">
+             
+            </div>
+            <div class="mainContentContainerMiddle">
+                <hr>
+            </div>
+            <div class="mainContentContainerLower">
+              <div class="lowerTop">
+                  <div class="lowerTopCircles">
+                     <div class="previous">
+                        <img  src="./assets/leftchevron.svg" alt="">
+                     </div>
+                     <div class="circleMiddle">
+                       
+                            <img class="circleMiddleImg" src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg" alt="">
+                     </div>
+                     <div class="next">
+                        <img  src="./assets/rightchevron.svg" alt="">
+                     </div>
+                 </div>
+             
+                <div class="middleDescription">
                     
+                    <div class="abc">
+                        <div class="title"><span>Get a link you can share</span></div>
+                    <div class="subtitle"><span>Click <b>New meeting</b> to get a link you can send to people you want to meet with</span></div>
+                    </div>
                 </div>
-                <div class="meet">Meet</div>
+             
+              </div>
+              <div class="lowerBottom">
+                  <div class="hollowcircles">
+                    <div class="circle1"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                  </div>
+                 
+              </div>
+              
             </div>
-            <div class="headerRight">
-                <div class="headerRightText">
-                     <div class="date-time" id="dateTime"> date and time
-      
-    </div>
-                </div>
-                <div class="questionIcon">
-                    <img class="questionIconImg" src="./assets/question.svg" alt="">
-                </div>
-                <div class="exclamationIcon">
-                    <img class="exclamationIconImg" src="./assets/exclamation.svg" alt="">
-                </div>
-                <div class="settingsIcon">
-                    <img class="settingsIconImg" src="./assets/settings.svg" alt="">
-                </div>
-                <div class="appsIcon">
-                    <img class="appsIconImg" src="./assets/apps.svg" alt="">
-                </div>
-                <div class="accountIcon">
-                    <img class="accountIconImg" src="./assets/account.svg" alt="">
-                </div>
+             <div class="about">
+                    <div class="about1"> <span><u>Learn more</u></span></div>
+                    <div class="about2"> <span>about Google Meet</span></div>
             </div>
-        </div>
-        <div class="bottom">
-            <div class="sidebar">
-                <div class="calender">
-                    <img class="calenderIcon" src="./assets/calender.svg" alt=""> Meetings
-                </div>
-                <div class="videocam">
-                    <img class="videocamIcon" src="./assets/videocam.svg" alt=""> Calls
-                </div>
-            </div>
-            <div class="bottomMiddle">
-                <div class="titleText">
-                    <div class="titleText1">Video calls and meetings for</div>
-                    <div class="titleText2">everyone</div>
-                </div>
-                <div class="belowTitleText">
-                    <div class="belowtitleText1">connect, collaborate , and celebrate from anywhwere with </div>
-                    <div class="belowtitleText2">Google Meet</div>
-                </div>
-                <div class="joinOptions">
-                    <div class="newMetting">
-                        <img class="newMettingIcon" src="./assets/videoCall.svg" alt=""> New Meeting
-                    </div>
-                    <div class="link">
-                        <img class="linkIcon" src="./assets/keyboard.svg" alt=""> Enter a code or link
-                    </div>
-                    <div class="joinText">Join </div>
-
-                </div>
-                <hr class="divider">
-                <div class="lastSection">
-                    <div class="circles">
-                        <img class="previousIcon" src="./assets/leftchevron.svg" alt="">
-                        <div class="middleIcon">
-                            <img class="middleIconImg"
-                                src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg"
-                                alt="">
-                        </div>
-                        <img class="nextIcon" src="./assets/rightchevron.svg" alt="">
-                    </div>
-                    <div class="bottomText">
-                        <div class="bottomText1">Get a link you can share</div>
-                        <div class="bottomText2">Click <B>New meeting</B> to get a link you can share with people </div>
-                        <div class="bottomText3">you want to meet with</div>
-                    </div>
-                    <div class="hollowCircles">
-                        <img class="hollowCircle" src="./assets/hollowcircle.svg" alt="">
-                        <img class="hollowCircle" src="./assets/hollowcircle.svg" alt="">
-                        <img class="hollowCircle" src="./assets/hollowcircle.svg" alt="">
-                    </div>
-                    <div class="smallText">
-                        <a href="https://support.google.com/meet/?hl=en#topic=14074839">
-                            <div class="smallText1"><u>Learn more</u></div>
-                        </a>
-                        <div class="smallText2">about Google Meet</div>
-
-                    </div>
-                </div>
-
-            </div>
+    
         </div>
     </div>
-
-    </div>
-     <script src="script.js"></script>
+ </div>
+   </div>
+         
+        
+       
+   
 </body>
 
 </html>
