@@ -156,10 +156,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+   
 }
-.appsBtn img {
+.appsBtnImg {
     width: 24px;
     height: 24px;
+   
+
 }
 .appsBtn:hover {
     border-radius: 50%;
@@ -174,10 +178,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
-.accountBtn img {
+.accountBtnImg {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
 }
 .accountBtn:hover {
     border-radius: 50%;
@@ -190,11 +196,11 @@ body {
     gap: 16px;
 }
 .sidebar {
-    max-width: 232px;
+    width: 256px;
     height: 100vh;
     background-color: white;
     padding-top: 24px;
-    padding-right: 24px;
+ 
     position: fixed;
     top: 64px;
     left: 0;
@@ -259,12 +265,18 @@ body {
 }
 .mainContent {
     
-    width: 100%;
-    background-color: white;
+   width: 100%;
+  background-color: white;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+
   margin-top: 64px;
+  
+  padding-top: 15px;
+  padding-left: 256px;
+
+  align-items: center;
+  flex-direction: column;
  
    
 }
@@ -275,7 +287,7 @@ body {
 }
 .mainContentContainerUpper {
     
-    width: 100%;
+    min-width: 624px;
     background-color: white;
      
      display: flex;
@@ -287,7 +299,7 @@ body {
 /* Upper Bold Text */
 .upperBoldText {
     
-    
+    max-width: 592px;
     font-size: 45px;
     text-align: center;
     text-size-adjust: 100%;
@@ -301,7 +313,7 @@ body {
 }
 .upperSubText {
 
-    
+    max-width: 592px;
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
@@ -319,12 +331,13 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    
     gap: 16px;
+   
 }
 .newMetting {
     max-width: 146px;
-    padding: 4px 8px;
+    padding: 8px 15px;
     height: 48px;
     display: flex;
     flex-direction: row;
@@ -347,12 +360,15 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 22px;
     padding: 16px;
 }
 .joinInput {
     max-width: 274px;
-    padding: 4px 16px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     height: 48px;
     display: flex;
     flex-direction: row;
@@ -390,6 +406,7 @@ body {
 .mainContentContainerMiddle{
     width: 100%;
     background-color: white;
+    padding-top: 25px;
 }
 .hr {
     border: none;
@@ -413,8 +430,8 @@ background-color: white;
        display: flex;
 background-color: white;
   flex-direction: column;
- gap: 125px;
-    padding-top: 65px;
+ gap: 54px;
+    padding-top: 28px;
     position: relative;
 }
 .lowerTopCircles {
@@ -423,7 +440,7 @@ background-color: white;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 56px; 
+    gap: 57px; 
 }
 .previous {
     cursor: pointer;
@@ -453,7 +470,7 @@ background-color: white;
     border: 2px solid rgb(225, 222, 222);
    position: absolute;
    top: 50%;
-   right: 12%;
+   right: -20%;
 }
 
 
@@ -462,6 +479,7 @@ background-color: white;
    
  width: 250px;
     height: 250px;
+    padding-right: 20px;
 }
 .circleMiddleImg {
    
@@ -499,9 +517,9 @@ background-color: white;
     text-size-adjust: 100%;
     color: rgb(0, 0, 0,0.87);
 }
-.subTitle {
+.subtitle {
     
-    max-width: px;
+    max-width: 362px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
